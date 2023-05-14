@@ -1,3 +1,31 @@
-.buttons {
+h1 {
+  color: black;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1, 36;
+}
+button {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 87;
+}
+button {
   cursor: pointer;
+}
+link {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1, 17;
+}
+h4 {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1, 17;
+}
+.contents {
+  color: #757575;
 }
