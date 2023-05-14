@@ -1,8 +1,19 @@
-h1 {
+.title {
   color: black;
   font-size: 44px;
   font-weight: 900;
   line-height: 1, 36;
+}
+
+.menu {
+  color: #212121;
+  font-size: px;
+  font-weight: 500;
+  line-height: 1, 17;
+  text-decoration: none;
+}
+.menu:hover {
+  color: #2196f3;
 }
 button {
   color: black;
@@ -12,20 +23,19 @@ button {
 }
 button {
   cursor: pointer;
+  text-align: center;
 }
-link {
+.link {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 1, 17;
+  text-decoration: none;
 }
-h4 {
+.main {
   color: #212121;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 1, 17;
-}
-.contents {
-  color: #757575;
 }
