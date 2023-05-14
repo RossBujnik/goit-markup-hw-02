@@ -1,4 +1,7 @@
+/* Porfolio */
+
 .title {
+  font-family: Roboto;
   color: black;
   font-size: 44px;
   font-weight: 900;
@@ -6,8 +9,9 @@
 }
 
 .menu {
+  font-family: Roboto;
   color: #212121;
-  font-size: px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1, 17;
   text-decoration: none;
@@ -15,27 +19,104 @@
 .menu:hover {
   color: #2196f3;
 }
+.contacts {
+  font-family: Roboto;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 17;
+}
+.contacts:hover {
+  color: #2196f3;
+}
 button {
-  color: black;
+  font-family: Roboto;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 700;
   line-height: 1, 87;
+  background-color: #2196f3;
 }
 button {
   cursor: pointer;
-  text-align: center;
 }
 .link {
   font-family: Raleway;
+  color: #212121;
   font-size: 26px;
   font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
 }
+
+/* Nasze atuty */
+
 .main {
-  color: #212121;
   font-family: Roboto;
+  color: #212121;
   font-size: 14px;
   font-weight: 700;
   line-height: 1, 17;
 }
+.contents {
+  font-family: Roboto;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71;
+}
+
+/* Czym się zajmujemy */
+
+h2 {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1, 17;
+}
+
+/* Nasz zespół */
+
+h3 {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 17;
+}
+.position {
+  font-family: Roboto;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 17;
+}
+
+/* Footer */
+
+.footer {
+  font-family: Raleway;
+  color: #212121;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1, 17;
+}
+
+.place {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71;
+  text-decoration: none;
+}
+.call_write {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71;
+}
+
+/* portfolio.html */
