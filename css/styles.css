@@ -31,10 +31,14 @@
 }
 button {
   font-family: Roboto;
-  color: #ffffff;
+  color: #212121;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 1, 87;
+  font-weight: 500;
+  line-height: 1, 62;
+  background-color: #f5f4fa;
+}
+button:focus,
+button:hover {
   background-color: #2196f3;
 }
 button {
@@ -120,3 +124,18 @@ h3 {
 }
 
 /* portfolio.html */
+
+.others {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.others2 {
+  font-family: Roboto;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 87;
+}
