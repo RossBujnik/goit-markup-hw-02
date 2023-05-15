@@ -1,12 +1,22 @@
 :root {
-  --brand-color: white;
+  --brand-color: #e5e5e5;
 }
 
 /* Porfolio */
 
+/* Header */
+
+.main_part {
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  left: -15px;
+  background-color: #2f303a;
+}
+
 .title {
   font-family: Roboto;
-  color: black;
+  color: #ffffff;
   font-size: 44px;
   font-weight: 900;
   line-height: 1, 36;
@@ -41,16 +51,15 @@ ul {
 }
 button {
   font-family: Roboto;
-  color: #212121;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1, 62;
-  background-color: #f5f4fa;
-}
-button:focus,
-button:hover {
   background-color: #2196f3;
+  border-style: none;
+  border-radius: 4px;
 }
+
 button {
   cursor: pointer;
 }
@@ -82,6 +91,10 @@ button {
 
 /* Czym się zajmujemy */
 
+.team {
+  background-color: #757575;
+}
+
 h2 {
   font-family: Roboto;
   color: #212121;
@@ -99,6 +112,7 @@ h3 {
   font-weight: 500;
   line-height: 1, 17;
 }
+
 .position {
   font-family: Roboto;
   color: #757575;
@@ -110,17 +124,20 @@ h3 {
 /* Footer */
 
 .footer {
+  width: 1600px;
+  height: 252px;
+  top: 2097px;
   font-family: Raleway;
-  color: #212121;
   font-size: 26px;
   font-weight: 400;
   line-height: 1, 17;
   text-decoration: none;
+  background-color: #2f303a;
 }
 
 .place {
   font-family: Roboto;
-  color: #212121;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 1, 71;
@@ -128,10 +145,11 @@ h3 {
 }
 .call_write {
   font-family: Roboto;
-  color: #212121;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 1, 71;
+  text-decoration: none;
 }
 
 /* portfolio.html */
