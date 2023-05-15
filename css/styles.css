@@ -20,6 +20,11 @@
   line-height: 1, 17;
   text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+}
+
 .menu:hover {
   color: #2196f3;
 }
@@ -29,6 +34,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 17;
+  text-decoration: none;
 }
 .contacts:hover {
   color: #2196f3;
