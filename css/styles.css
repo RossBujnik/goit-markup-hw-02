@@ -6,6 +6,28 @@
 
 /* Header */
 
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.brand-name01 {
+  font-family: Raleway;
+  color: #2196f3;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1, 17;
+  text-decoration: none;
+}
+.brand-name02 {
+  font-family: Raleway;
+  color: #000000;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1, 17;
+  text-decoration: none;
+}
+
 .main_part {
   width: 1600px;
   height: 600px;
@@ -63,14 +85,6 @@ button {
 button {
   cursor: pointer;
 }
-.link {
-  font-family: Raleway;
-  color: #212121;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1, 17;
-  text-decoration: none;
-}
 
 /* Nasze atuty */
 
@@ -92,7 +106,7 @@ button {
 /* Czym się zajmujemy */
 
 .team {
-  background-color: #757575;
+  background-color: #f5f4fa;
 }
 
 h2 {
@@ -123,16 +137,34 @@ h3 {
 
 /* Footer */
 
-.footer {
-  width: 1600px;
+.footer-background-01 {
   height: 252px;
+  width: 1600px;
   top: 2097px;
+  left: 0px;
+  background-color: #2f303a;
+}
+
+.footer-background-02 {
+  background-color: #2f303a;
+}
+
+.brand-name03 {
   font-family: Raleway;
+  color: #2196f3;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1, 17;
   text-decoration: none;
-  background-color: #2f303a;
+}
+
+.brand-name04 {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1, 17;
+  text-decoration: none;
 }
 
 .place {
@@ -153,6 +185,17 @@ h3 {
 }
 
 /* portfolio.html */
+
+.navi-points {
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+}
+
+.buttons:hover {
+  color: #212121;
+  background-color: #f5f4fa;
+}
 
 .others {
   font-family: Roboto;
