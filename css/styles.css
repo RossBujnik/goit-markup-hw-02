@@ -71,6 +71,12 @@ ul {
 .contacts:hover {
   color: #2196f3;
 }
+
+.main-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 button {
   font-family: Roboto;
   color: #212121;
@@ -86,7 +92,9 @@ button {
   color: #ffffff;
   background-color: #2196f3;
 }
-button {
+
+button,
+main-button {
   cursor: pointer;
 }
 
